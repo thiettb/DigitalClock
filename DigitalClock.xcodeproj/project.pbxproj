@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA85E5641EBF351800CF5CD7 /* BackGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA85E5631EBF351800CF5CD7 /* BackGround.jpg */; };
 		FAB738351EBE303F00E809DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB738341EBE303F00E809DD /* AppDelegate.swift */; };
 		FAB738371EBE304000E809DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB738361EBE304000E809DD /* ViewController.swift */; };
 		FAB7383A1EBE304000E809DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB738381EBE304000E809DD /* Main.storyboard */; };
 		FAB7383C1EBE304000E809DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB7383B1EBE304000E809DD /* Assets.xcassets */; };
 		FAB7383F1EBE304000E809DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB7383D1EBE304000E809DD /* LaunchScreen.storyboard */; };
+		FAB738501EBE3F9F00E809DD /* Let's go Digital Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB7384F1EBE3F9F00E809DD /* Let's go Digital Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA85E5631EBF351800CF5CD7 /* BackGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackGround.jpg; sourceTree = "<group>"; };
 		FAB738311EBE303F00E809DD /* DigitalClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB738341EBE303F00E809DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAB738361EBE304000E809DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		FAB7383B1EBE304000E809DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB7383E1EBE304000E809DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAB738401EBE304000E809DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB7384F1EBE3F9F00E809DD /* Let's go Digital Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Let's go Digital Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		FAB738281EBE303F00E809DD = {
 			isa = PBXGroup;
 			children = (
+				FAB738461EBE316900E809DD /* Resources */,
 				FAB738331EBE303F00E809DD /* DigitalClock */,
 				FAB738321EBE303F00E809DD /* Products */,
 			);
@@ -62,6 +67,15 @@
 				FAB738401EBE304000E809DD /* Info.plist */,
 			);
 			path = DigitalClock;
+			sourceTree = "<group>";
+		};
+		FAB738461EBE316900E809DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAB7384F1EBE3F9F00E809DD /* Let's go Digital Regular.ttf */,
+				FA85E5631EBF351800CF5CD7 /* BackGround.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +140,9 @@
 			files = (
 				FAB7383F1EBE304000E809DD /* LaunchScreen.storyboard in Resources */,
 				FAB7383C1EBE304000E809DD /* Assets.xcassets in Resources */,
+				FAB738501EBE3F9F00E809DD /* Let's go Digital Regular.ttf in Resources */,
 				FAB7383A1EBE304000E809DD /* Main.storyboard in Resources */,
+				FA85E5641EBF351800CF5CD7 /* BackGround.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +318,7 @@
 				FAB738451EBE304000E809DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
